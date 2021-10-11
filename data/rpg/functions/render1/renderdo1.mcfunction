@@ -1,0 +1,1 @@
+execute as @e[tag=render] at @s run function rpg:render1/renderdo

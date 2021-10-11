@@ -1,0 +1,80 @@
+{
+    "criteria": {
+        "out1":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "x": {
+                            "max": -4041
+                        }
+                    }
+                }
+            }
+        },
+        "out2":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "x": {
+                            "min": -4006
+                        }
+                    }
+                }
+            }
+        },
+        "out3":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "z": {
+                            "min": 3200
+                        }
+                    }
+                }
+            }
+        },
+        "out4":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "z": {
+                            "max": 3165
+                        }
+                    }
+                }
+            }
+        },
+        "out5":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "y": {
+                            "max": 49
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["out1",
+        "out2",
+        "out3",
+        "out4",
+        "out5"
+    ]
+    ],
+    "rewards": {
+        "function": "rpg:haven/inout/tutorout"
+    }
+}

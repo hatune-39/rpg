@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "x": {
+                            "min": -4040,
+                            "max": -4007
+                        },
+                        "z":{
+                            "min": 3166,
+                            "max": 3199
+                        },
+                        "y": {
+                            "min" :50
+                        }
+                    }
+                }
+            }
+
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/inout/tutorin"
+    }
+}

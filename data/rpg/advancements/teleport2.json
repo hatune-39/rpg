@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "telep":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:teleport2"
+    }
+}

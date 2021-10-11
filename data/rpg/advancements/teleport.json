@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "telep":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "overworld"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:teleport"
+    }
+}

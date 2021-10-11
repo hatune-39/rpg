@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "with":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "effects": {
+                        "wither":{
+
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/withcan"
+    }
+}

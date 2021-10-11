@@ -1,0 +1,25 @@
+{
+    "type": "rpg:default",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "layers": [
+            {
+              "block": "minecraft:stone",
+              "height": 70
+            },
+            {
+              "block": "minecraft:dirt",
+              "height": 6
+            },
+            {
+              "block": "minecraft:grass_block",
+              "height": 1
+            }
+          ],
+          "structures": {
+            "structures": {}
+          }
+        }
+      }
+}

@@ -1,0 +1,473 @@
+{
+    "criteria": {
+        "damage0a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{00:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage0b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{00:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage1a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{01:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage1b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{01:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage2a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{02:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage2b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{02:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage3a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{03:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage3b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{03:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage4a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{04:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage4b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{04:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage5a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{05:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage5b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{05:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage6a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{06:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage6b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{06:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage7a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{07:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage7b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{07:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage8a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{08:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage8b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{08:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage9a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{09:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage9b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{09:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage10a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{10:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage10b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{10:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage11a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{11:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage11b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{11:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage12a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{12:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage12b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{12:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage13a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{13:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage13b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{13:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage14a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{14:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage14b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{14:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage15a":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{15:0b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "damage15b":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity":{
+                        "equipment": {
+                            "head": {
+                                "nbt": "{enemy:{ID:{15:1b}}}"                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["damage0a","damage0b"],
+        ["damage1a","damage1b"],
+        ["damage2a","damage2b"],
+        ["damage3a","damage3b"],
+        ["damage4a","damage4b"],
+        ["damage5a","damage5b"],
+        ["damage6a","damage6b"],
+        ["damage7a","damage7b"],
+        ["damage8a","damage8b"],
+        ["damage9a","damage9b"],
+        ["damage10a","damage10b"],
+        ["damage11a","damage11b"],
+        ["damage12a","damage12b"],
+        ["damage13a","damage13b"],
+        ["damage14a","damage14b"],
+        ["damage15a","damage15b"]
+    ],
+    "rewards": {
+        "function": "rpg:base/id/checkiddamage"
+    }
+}

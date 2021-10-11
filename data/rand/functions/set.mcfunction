@@ -1,0 +1,37 @@
+scoreboard objectives add rand dummy
+scoreboard players set 33-0 rand 1
+scoreboard players set 33-1 rand 0
+scoreboard players set 33-2 rand 0
+scoreboard players set 33-3 rand 1
+scoreboard players set 33-4 rand 1
+scoreboard players set 33-5 rand 0
+scoreboard players set 33-6 rand 0
+scoreboard players set 33-7 rand 1
+scoreboard players set 33-8 rand 1
+scoreboard players set 33-9 rand 0
+scoreboard players set 33-10 rand 1
+scoreboard players set 33-11 rand 1
+scoreboard players set 33-12 rand 1
+scoreboard players set 33-13 rand 0
+scoreboard players set 33-14 rand 0
+scoreboard players set 33-15 rand 1
+scoreboard players set 33-16 rand 1
+scoreboard players set 33-17 rand 0
+scoreboard players set 33-18 rand 0
+scoreboard players set 33-19 rand 1
+scoreboard players set 33-20 rand 1
+scoreboard players set 33-21 rand 0
+scoreboard players set 33-22 rand 0
+scoreboard players set 33-23 rand 0
+scoreboard players set 33-24 rand 1
+scoreboard players set 33-25 rand 1
+scoreboard players set 33-26 rand 1
+scoreboard players set 33-27 rand 0
+scoreboard players set 33-28 rand 1
+scoreboard players set 33-29 rand 1
+scoreboard players set 33-30 rand 0
+scoreboard players set 33-31 rand 1
+scoreboard players set 33-32 rand 1
+
+scoreboard players set 2 rand 2
+scoreboard players set -1 rand -1

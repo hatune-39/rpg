@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                    "position": {
+                        "x": {
+                            "min":-4042,
+                            "max": -3942
+                        },
+                        "z":{
+                            "min":3137,
+                            "max": 3295
+                        },
+                        "y": {
+                            "min" :50
+                        }
+                    }
+                }
+            }
+
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/in"
+    }
+}

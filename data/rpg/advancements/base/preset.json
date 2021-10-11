@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "preset":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/preset"
+    }
+}
