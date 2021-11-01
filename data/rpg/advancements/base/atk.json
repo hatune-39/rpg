@@ -408,8 +408,8 @@
             "trigger": "player_hurt_entity",
             "conditions": {
                 "damage": {
-                    "source_entity": {
-                        "type": "#arrows"
+                    "type": {
+                        "is_projectile": true
                     }
                 }
             }
@@ -418,8 +418,8 @@
             "trigger": "player_hurt_entity",
             "conditions": {
                 "damage": {
-                    "source_entity":{
-                        "type": "player"
+                    "type": {
+                        "is_projectile": false
                     }
                 }
             }

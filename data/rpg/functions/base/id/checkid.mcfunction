@@ -33,8 +33,12 @@ execute if entity @e[tag=atkb] run function rpg:base/atk/playerget
 
 
 execute if entity @e[tag=atkd] run function rpg:base/atk/atk
+execute if entity @e[tag=atkb] run function rpg:base/bow/bow
 
 tag @e[tag=atkd] remove atkd
 tag @e[tag=atkb] remove atkb
 
 advancement revoke @s only rpg:base/atk
+
+tellraw @a [{"score":{"name": "@s","objective": "test"}}]
+scoreboard players reset @s test

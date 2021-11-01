@@ -1,0 +1,10 @@
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up
+function rpg:base/lvl/up

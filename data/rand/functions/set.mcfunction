@@ -13,7 +13,7 @@ scoreboard players set 33-10 rand 1
 scoreboard players set 33-11 rand 1
 scoreboard players set 33-12 rand 1
 scoreboard players set 33-13 rand 0
-scoreboard players set 33-14 rand 0
+scoreboard players set 33-14 rand 1
 scoreboard players set 33-15 rand 1
 scoreboard players set 33-16 rand 1
 scoreboard players set 33-17 rand 0

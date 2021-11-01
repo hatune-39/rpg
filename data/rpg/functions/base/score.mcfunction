@@ -70,4 +70,7 @@ scoreboard players set #12 ID 12
 scoreboard players set #20 ID 20
 scoreboard players set #30 ID 30
 scoreboard players set #100 ID 100
+scoreboard players set #104 ID 104
+scoreboard players set #105 ID 105
 scoreboard players set #106 ID 106
+scoreboard players set #107 ID 107
