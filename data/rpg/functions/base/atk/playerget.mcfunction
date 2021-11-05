@@ -1,6 +1,10 @@
-execute store result score @s matk run data get entity @s SelectedItem.tag.Stat.atk
-execute store result score @s mstr run data get entity @s SelectedItem.tag.Stat.str 
-execute store result score @s mdex run data get entity @s SelectedItem.tag.Stat.dex
+execute if entity @e[tag=atkd] store result score @s matk run data get entity @s SelectedItem.tag.Stat.datk
+execute if entity @e[tag=atkd] store result score @s mstr run data get entity @s SelectedItem.tag.Stat.dstr 
+execute if entity @e[tag=atkd] store result score @s mdex run data get entity @s SelectedItem.tag.Stat.ddex
+
+execute if entity @e[tag=atkb] store result score @s matk run data get entity @s SelectedItem.tag.Stat.batk
+execute if entity @e[tag=atkb] store result score @s mstr run data get entity @s SelectedItem.tag.Stat.bstr 
+execute if entity @e[tag=atkb] store result score @s mdex run data get entity @s SelectedItem.tag.Stat.bdex
 
 execute store result score @s oatk run data get entity @s Inventory[{Slot:-106b}].tag.Stat.oatk
 execute store result score @s ostr run data get entity @s Inventory[{Slot:-106b}].tag.Stat.ostr 

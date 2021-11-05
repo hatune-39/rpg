@@ -1,0 +1,56 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "functions": [
+                {
+                    "function": "set_name",
+                    "name": "教官の許可証"
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                        {
+                            "text": "10枚集めて武器をくれた教官に話かけよう"
+                        }
+                    ]
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{item:{stage:haven,unique:lisence}}"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "paper",
+                    "conditions": [
+                        {
+                            "condition": "entity_properties",
+                            "entity": "killer_player",
+                            "predicate": {
+                                "nbt": "{Tags:[intuto]}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "item",
+                    "name": "copper_ingot",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name":  "銅貨(中)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

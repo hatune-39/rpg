@@ -19,7 +19,8 @@
           ],
           "structures": {
             "structures": {}
-          }
+          },
+          "biome": "rpg:plains"
         }
       }
 }

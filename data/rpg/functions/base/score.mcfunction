@@ -5,6 +5,7 @@ scoreboard objectives add dexbase dummy
 scoreboard objectives add strbase dummy
 scoreboard objectives add hpbase dummy
 scoreboard objectives add defbase dummy
+scoreboard objectives add allocatable dummy
 
 scoreboard objectives add def dummy
 scoreboard objectives add atk dummy
@@ -48,6 +49,8 @@ scoreboard objectives add odex dummy
 scoreboard objectives add ohp dummy
 scoreboard objectives add odef dummy
 scoreboard objectives add oatk dummy
+
+scoreboard objectives add bowatk custom:damage_dealt_resisted
 
 scoreboard objectives add mstr dummy
 scoreboard objectives add mdex dummy

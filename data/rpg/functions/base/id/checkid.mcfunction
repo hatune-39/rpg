@@ -35,10 +35,18 @@ execute if entity @e[tag=atkb] run function rpg:base/atk/playerget
 execute if entity @e[tag=atkd] run function rpg:base/atk/atk
 execute if entity @e[tag=atkb] run function rpg:base/bow/bow
 
+
+execute if entity @e[tag=atkd] run function rpg:base/atk/cal
+execute if entity @e[tag=atkb] run function rpg:base/atk/cal
+
+execute if entity @e[tag=atkb] run function rpg:base/bow/cal
+
+execute if entity @e[tag=atkd] run function rpg:base/atk/end
+execute if entity @e[tag=atkb] run function rpg:base/atk/end
+
 tag @e[tag=atkd] remove atkd
 tag @e[tag=atkb] remove atkb
 
-advancement revoke @s only rpg:base/atk
+scoreboard players reset @s bowatk
 
-tellraw @a [{"score":{"name": "@s","objective": "test"}}]
-scoreboard players reset @s test
+advancement revoke @s only rpg:base/atk

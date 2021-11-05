@@ -24,5 +24,11 @@ scoreboard players operation lvl lvl += @s expexp
 scoreboard players operation @s nextexp = lvl lvl
 scoreboard players set @s exp 0
 
+scoreboard players add @s strbase 1
+scoreboard players add @s dexbase 1
+scoreboard players add @s allocatable 5
+
+
+
 
 #say hi

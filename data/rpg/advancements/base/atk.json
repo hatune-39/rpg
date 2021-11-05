@@ -411,7 +411,21 @@
                     "type": {
                         "is_projectile": true
                     }
-                }
+                },
+                "entity": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+
+                                }
+                            }
+                        }
+                    }
+                ]
             }
         },
         "atkbb":{
@@ -421,7 +435,21 @@
                     "type": {
                         "is_projectile": false
                     }
-                }
+                },
+                "entity": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    
+                                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     },
