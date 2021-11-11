@@ -22,6 +22,6 @@ scoreboard players operation #div100 atk += #mod100 atk
 
 
 
-say hi
+
 
 

@@ -20,4 +20,3 @@ execute if score haven stage matches 1 run function rpg:haven/in/summon2
 
 summon minecraft:villager -4004.50 63.00 3170.50 {Invulnerable: 1b, PersistenceRequired: 1b, Tags: ["haven", "notrade", "tutor1"], NoAI: 1b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], CustomName: '{"text":"教官"}', ArmorItems: [{}, {}, {}, {}], VillagerData: {profession: "minecraft:mason", level: 1, type: "minecraft:plains"}, Offers:{}}
 
-say indo

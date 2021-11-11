@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "house":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": -3959,
+                                "max": -3958
+                            },
+                            "y": {
+                                "max": 64,
+                                "min": 63
+                            },
+                            "z":{
+                                "max": 3143,
+                                "min": 3141
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/housein"
+    }
+}

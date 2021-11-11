@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "out":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:default",
+                        "position": {
+                            "x": {
+                                "max": -3962,
+                                "min": -3966
+                            },
+                            "y": {
+                                "min": 16,
+                                "max": 21
+                            },
+                            "z": {
+                                "min": 3130,
+                                "max": 3131
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/lvl/outallo"
+    }
+}

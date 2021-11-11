@@ -1,0 +1,2 @@
+execute unless entity @s if entity @a[tag=box] run schedule function rpg:base/house/boxopencheck 1t
+execute as @e[nbt={data:{category:{erea:house,maker:openbox}}}] at @s as @e[nbt={Item:{tag:{item:"box"}}},distance=..2] at @s run function rpg:base/house/boxopen

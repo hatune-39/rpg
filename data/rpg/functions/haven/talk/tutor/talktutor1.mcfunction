@@ -17,7 +17,7 @@ tag @s[tag=!endtuto] add intuto
 
 
 execute if score temp stage matches 10.. run clear @s paper{item:{stage:"haven",unique:"lisence"}}
-execute if score temp stage matches 10.. run tellraw @s "<教官> 基本的な戦闘能力は身に着けたようだな そなたにはこの武器とスキルを上げよう \nもし武器をなくしたらここに来るがいい。同じものを上げよう"
+execute if score temp stage matches 10.. run tellraw @s "<教官> 基本的な戦闘能力は身に着けたようだな そなたにはこの武器とスキルを上げよう \nもし武器をなくしたらここに来るがいい。同じものを上げよう\n向かって左の建物はあなたの家だ。自由に使いなさい"
 execute if score temp stage matches 10.. run give @s wooden_sword{display:{Name:'{"text":"初めての剣"}',Lore:['[{"text":"赤","color":"#FF0000"},{"text":"青","color":"#0000FF"},{"text":"強化可能","color":"white"}]']},weapon:1b,ID:{stage:haven,unique:startsword,group:1},Stat:{datk:10b,dstr:6b,ddex:0b,enchant:{red:0b,blue:0b}},AttributeModifiers:[{Name:"minecraft:generic.attack_damage",Slot:"mainhand",AttributeName:"minecraft:generic.attack_damage",Operation:0,UUID:[I;1,1,1,1],Amount:9},{Name:"minecraft:generic.attack_speed",Slot:"mainhand",AttributeName:"minecraft:generic.attack_speed",Amount:-0.75,Operation:2,UUID:[I;1,1,1,2]}],HideFlags:127,Unbreakable:true}
 execute if score temp stage matches 10.. run give @s bow{display:{Name:'{"text":"初めての弓"}',Lore:['[{"text":"赤","color":"#FF0000"},{"text":"青","color":"#0000FF"},{"text":"強化可能","color":"white"}]']},weapon:1b,ID:{stage:haven,unique:startbow,group:1},Stat:{batk:10b,bstr:0b,bdex:6b,enchant:{red:0b,blue:0b}},AttributeModifiers:[{Name:"minecraft:generic.attack_damage",Slot:"mainhand",AttributeName:"minecraft:generic.attack_damage",Operation:0,UUID:[I;1,1,1,1],Amount:9}],HideFlags:127,Unbreakable:true}
 execute if score temp stage matches 10.. run give @s bread 10

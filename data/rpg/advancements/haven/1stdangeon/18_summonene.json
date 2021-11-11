@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "1st":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "summon": 18
+                        }
+                    }
+                    ,{
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"firstdangeon\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/1stdangeon/summonenemy"
+    },
+    "parent": "rpg:haven/1stdangeon/base"
+}

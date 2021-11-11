@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "in":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:default",
+                        "position": {
+                            "x": {
+                                "max": -3971,
+                                "min": -3972
+                            },
+                            "y": {
+                                "min": 17,
+                                "max": 20
+                            },
+                            "z": {
+                                "min": 3157,
+                                "max": 3160
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/lvl/inallo"
+    }
+}

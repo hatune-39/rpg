@@ -23,12 +23,15 @@ scoreboard players add @s expexp 1
 scoreboard players operation lvl lvl += @s expexp
 scoreboard players operation @s nextexp = lvl lvl
 scoreboard players set @s exp 0
-
+scoreboard players operation lvl lvl = @s lvl
+scoreboard players operation lvl lvl %= #10 ID
 scoreboard players add @s strbase 1
 scoreboard players add @s dexbase 1
 scoreboard players add @s allocatable 5
+scoreboard players add @s maxhp 15
+execute if score lvl lvl matches 9 run scoreboard players operation @s maxhp *= #11 ID
+execute if score lvl lvl matches 9 run scoreboard players operation @s maxhp /= #10 ID
+scoreboard players operation @s hp = @s maxhp
 
 
 
-
-#say hi

@@ -1,0 +1,90 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "item",
+                    "name": "copper_ingot",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name":  "銅貨(中)"
+                        },
+                        {
+                            "function": "limit_count",
+                            "limit": {
+                                "max": 5,
+                                "min": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                }
+            ],
+            "entries":[
+                {
+                    "type": "item",
+                    "name": "chest",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "報酬ボックス(lvl1)"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{item:box,lvl:1}"
+                        }
+                    ],
+                    "weight": 90
+                },
+                {
+                    "type": "item",
+                    "name": "chest",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": "報酬ボックス(lvl2)"
+                        }
+                    ],
+                    "weight": 10
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type": "item",
+                    "name": "arrow",
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 2
+                        }
+                    ]
+                }
+            ],
+            "conditions":[
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "head": {"nbt": "{enemy:{stage:haven,group:2b,name:1stskelton}}"}
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

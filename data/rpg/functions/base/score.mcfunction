@@ -13,6 +13,10 @@ scoreboard objectives add dex dummy
 scoreboard objectives add str dummy
 scoreboard objectives add hp dummy
 scoreboard objectives add maxhp dummy
+scoreboard objectives add strtemp dummy
+scoreboard objectives add dextemp dummy
+scoreboard objectives add hptemp dummy
+
 
 scoreboard objectives add atkbuff dummy
 scoreboard objectives add dexbuff dummy
@@ -61,6 +65,7 @@ scoreboard objectives add lvl dummy
 scoreboard objectives add exp dummy
 scoreboard objectives add nextexp dummy
 scoreboard objectives add expexp dummy
+scoreboard objectives add summon dummy
 
 scoreboard objectives add ID dummy
 
@@ -69,6 +74,7 @@ scoreboard players set #2 ID 2
 scoreboard players set #3 ID 3
 scoreboard players set #4 ID 4
 scoreboard players set #10 ID 10
+scoreboard players set #11 ID 11
 scoreboard players set #12 ID 12
 scoreboard players set #20 ID 20
 scoreboard players set #30 ID 30
@@ -77,3 +83,4 @@ scoreboard players set #104 ID 104
 scoreboard players set #105 ID 105
 scoreboard players set #106 ID 106
 scoreboard players set #107 ID 107
+team add enemy

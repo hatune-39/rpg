@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "in":{
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:default",
+                        "position": {
+                            "z": {
+                                "min": 3141,
+                                "max": 3148
+                            },
+                            "x": {
+                                "max": -3965,
+                                "min": -3970
+                            },
+                            "y":{
+                                "min": 17,
+                                "max": 25
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/house/inbox"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "criteria": {
+        "out":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "x": {
+                                "min": -3968,
+                                "max": -3967
+                            },
+                            "y": {
+                                "min": 17,
+                                "max": 19
+                            },
+                            "z":{
+                                "max": 3168,
+                                "min": 3167
+                            }
+                        },
+                        "dimension": "rpg:default"
+                    }
+                }
+            }
+        },
+        "haven":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"househaven\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["out"],
+        ["haven"]
+    ],
+    "rewards": {
+        "function": "rpg:base/house/houseout"
+    }
+}

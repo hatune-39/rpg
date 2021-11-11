@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "in":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:dungeon",
+                        "position": {
+                            "x": {
+                                "max": -3899,
+                                "min": -3900
+                            },
+                            "y": {
+                                "max": 65,
+                                "min": 63
+                            },
+                            "z": {
+                                "max": 3257,
+                                "min": 3255
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/1stdangeon/retairdo"
+    }
+}

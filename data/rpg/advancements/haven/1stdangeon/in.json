@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "in":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:default",
+                        "position": {
+                            "x": {
+                                "max": -3918,
+                                "min": -3919
+                            },
+                            "y": {
+                                "max": 67,
+                                "min": 64
+                            },
+                            "z": {
+                                "max": 3097,
+                                "min": 3093
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/1stdangeon/indo"
+    }
+}

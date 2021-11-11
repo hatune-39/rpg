@@ -3,78 +3,34 @@
         "test":{
             "trigger": "location",
             "conditions": {
-                "location": {
-                    "dimension": "rpg:default",
-                    "position": {
-                        "z": {
-                            "max": 3131
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "location_check",
+                            "entity": "this",
+                            "predicate": {
+                                "position": {
+                                    "x": {
+                                        "min":-4042,
+                                        "max": -3942
+                                    },
+                                    "z":{
+                                        "min":3137,
+                                        "max": 3295
+                                    },
+                                    "y": {
+                                        "min" :50
+                                    }
+                                },
+                                "dimension": "rpg:default"
+                            }
                         }
                     }
-                }
-            }
-        },
-        "test2":{
-            "trigger": "location",
-            "conditions": {
-                "location": {
-                    "dimension": "rpg:default",
-                    "position": {
-                        "z": {
-                            "min": 3301
-                        }
-                    }
-                }
-            }
-        },
-        "test3":{
-            "trigger": "location",
-            "conditions": {
-                "location": {
-                    "dimension": "rpg:default",
-                    "position": {
-                        "x": {
-                            "max": -4049
-                        }
-                    }
-                }
-            }
-        },
-        "test4":{
-            "trigger": "location",
-            "conditions": {
-                "location": {
-                    "dimension": "rpg:default",
-                    "position": {
-                        "x": {
-                            "min": -3935
-                        }
-                    }
-                }
-            }
-        },
-        "test5":{
-            "trigger": "location",
-            "conditions": {
-                "location": {
-                    "dimension": "rpg:default",
-                    "position": {
-                        "y": {
-                            "max": 49
-                        }
-                    }
-                }
+                ]
             }
         }
     },
-    
-    "requirements": [
-        ["test",
-        "test2",
-        "test3",
-        "test4",
-        "test5"
-    ]
-    ],
     "rewards": {
         "function": "rpg:haven/out"
     }

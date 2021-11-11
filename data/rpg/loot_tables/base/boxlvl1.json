@@ -1,0 +1,1033 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "red_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:red,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "赤の原石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 14
+                },
+                {                    
+                    "type": "item",
+                    "name": "orange_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:orange,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "橙の砥石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 13
+                },
+                {                    
+                    "type": "item",
+                    "name": "yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:yellow,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "黄の結晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 12
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 11
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {                    
+                    "type": "item",
+                    "name": "light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:light_blue,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "空色の宝玉"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 9
+                },
+                {                    
+                    "type": "item",
+                    "name": "lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:blue,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "青の鋭宝"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 8
+                },
+                {                    
+                    "type": "item",
+                    "name": "purple_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:purple,lvl:1,str:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "紫の水晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 7
+                },
+                {
+                    "type": "item",
+                    "name": "red_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:red,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "赤の原石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 14
+                },
+                {                    
+                    "type": "item",
+                    "name": "orange_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:orange,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "橙の砥石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 13
+                },
+                {                    
+                    "type": "item",
+                    "name": "yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:yellow,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "黄の結晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 12
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 11
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {                    
+                    "type": "item",
+                    "name": "light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:light_blue,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "空色の宝玉"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 9
+                },
+                {                    
+                    "type": "item",
+                    "name": "lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:blue,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "青の鋭宝"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 8
+                },
+                {                    
+                    "type": "item",
+                    "name": "purple_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:purple,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "紫の水晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "STR+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ],
+                            "weight": 7
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "red_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:red,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "赤の原石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 14
+                },
+                {                    
+                    "type": "item",
+                    "name": "orange_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:orange,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "橙の砥石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 13
+                },
+                {                    
+                    "type": "item",
+                    "name": "yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:yellow,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "黄の結晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 12
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 11
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {                    
+                    "type": "item",
+                    "name": "light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:light_blue,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "空色の宝玉"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 9
+                },
+                {                    
+                    "type": "item",
+                    "name": "lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:blue,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "青の鋭宝"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 8
+                },
+                {                    
+                    "type": "item",
+                    "name": "purple_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:purple,lvl:1,dex:3,HideFlags:127,app:all}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "紫の水晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+3"
+                                },
+                                {
+                                    "text": "武器・防具用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 7
+                },
+                {
+                    "type": "item",
+                    "name": "red_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:red,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "赤の原石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 14
+                },
+                {                    
+                    "type": "item",
+                    "name": "orange_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:orange,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "橙の砥石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 13
+                },
+                {                    
+                    "type": "item",
+                    "name": "yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:yellow,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "黄の結晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 12
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 11
+                },
+                {                    
+                    "type": "item",
+                    "name": "lime_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:lime,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "緑の輝石"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {                    
+                    "type": "item",
+                    "name": "light_blue_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:light_blue,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "空色の宝玉"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 9
+                },
+                {                    
+                    "type": "item",
+                    "name": "lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:blue,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "青の鋭宝"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ],
+                    "weight": 8
+                },
+                {                    
+                    "type": "item",
+                    "name": "purple_dye",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:enchant,item:purple,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": "紫の水晶"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "DEX+1,ATK+2"
+                                },
+                                {
+                                    "text": "武器用"
+                                }
+                            ],
+                            "weight": 7
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "mending": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
