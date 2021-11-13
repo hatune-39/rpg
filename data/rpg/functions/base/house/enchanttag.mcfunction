@@ -1,0 +1,2 @@
+execute as @e[type=item,sort=furthest,limit=1,distance=..2] if data entity @s Item.tag.app run tag @s add enchantmat
+execute as @e[type=item,sort=furthest,limit=1,distance=..2] if data entity @s Item.tag.app run scoreboard players set @e[tag=enchantequip] allocatable 0

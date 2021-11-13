@@ -1,7 +1,7 @@
 {
     "criteria": {
-        "out":{
-            "trigger": "location",
+        "requirement": {
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {
@@ -13,17 +13,17 @@
                                 "location": {
                                     "dimension": "rpg:default",
                                     "position": {
+                                        "x": {
+                                            "min": -3964,
+                                            "max": -3959
+                                        },
+                                        "y": {
+                                            "min": 16,
+                                            "max": 25
+                                        },
                                         "z": {
                                             "min": 3141,
                                             "max": 3148
-                                        },
-                                        "x": {
-                                            "max": -3965,
-                                            "min": -3970
-                                        },
-                                        "y":{
-                                            "min": 16,
-                                            "max": 25
                                         }
                                     }
                                 }
@@ -35,6 +35,6 @@
         }
     },
     "rewards": {
-        "function": "rpg:base/house/outbox"
+        "function": "rpg:base/house/outenchant"
     }
 }

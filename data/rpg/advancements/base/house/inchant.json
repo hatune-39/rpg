@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "rpg:default",
+                                    "position": {
+                                        "x": {
+                                            "min": -3964,
+                                            "max": -3959
+                                        },
+                                        "y": {
+                                            "min": 16,
+                                            "max": 25
+                                        },
+                                        "z": {
+                                            "min": 3141,
+                                            "max": 3148
+                                        }
+                                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/house/inenchant"
+    }
+}

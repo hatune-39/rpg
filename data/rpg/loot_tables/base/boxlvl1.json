@@ -19,7 +19,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "red"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -51,7 +52,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "#FFA500"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -83,7 +85,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "yellow"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -115,7 +118,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "#00FF2A"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -133,21 +137,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lime_dye",
+                    "name": "light_blue_dye",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,str:3,HideFlags:127,app:all}"
                         },
                         {
                             "function": "set_name",
-                            "name": "緑の輝石"
+                            "name": "空色の宝玉"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "aqua"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -165,21 +170,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "light_blue_dye",
+                    "name": "lapis_lazuli",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:light_blue,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:blue,lvl:1,str:3,HideFlags:127,app:all}"
                         },
                         {
                             "function": "set_name",
-                            "name": "空色の宝玉"
+                            "name": "青の鋭宝"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "blue"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -197,38 +203,6 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lapis_lazuli",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,str:3,HideFlags:127,app:all}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "青の鋭宝"
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "STR+3"
-                                },
-                                {
-                                    "text": "武器・防具用"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_enchantments",
-                            "enchantments": {
-                                "mending": 1
-                            }
-                        }
-                    ],
-                    "weight": 8
-                },
-                {                    
-                    "type": "item",
                     "name": "purple_dye",
                     "functions": [
                         {
@@ -243,7 +217,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+3"
+                                    "text": "STR+3",
+                                    "color": "light_purple"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -257,7 +232,7 @@
                             }
                         }
                     ],
-                    "weight": 7
+                    "weight": 8
                 },
                 {
                     "type": "item",
@@ -275,7 +250,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "red"
                                 },
                                 {
                                     "text": "武器用"
@@ -307,7 +283,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "#FFA500"
                                 },
                                 {
                                     "text": "武器用"
@@ -339,7 +316,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "yellow"
                                 },
                                 {
                                     "text": "武器用"
@@ -371,7 +349,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "#00FF2A"
                                 },
                                 {
                                     "text": "武器用"
@@ -389,21 +368,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lime_dye",
+                    "name": "light_blue_dye",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
                         },
                         {
                             "function": "set_name",
-                            "name": "緑の輝石"
+                            "name": "空色の宝玉"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "aqua"
                                 },
                                 {
                                     "text": "武器用"
@@ -421,21 +401,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "light_blue_dye",
+                    "name": "lapis_lazuli",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:light_blue,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:blue,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
                         },
                         {
                             "function": "set_name",
-                            "name": "空色の宝玉"
+                            "name": "青の鋭宝"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "blue"
                                 },
                                 {
                                     "text": "武器用"
@@ -453,38 +434,6 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lapis_lazuli",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "青の鋭宝"
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "STR+1,ATK+2"
-                                },
-                                {
-                                    "text": "武器用"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_enchantments",
-                            "enchantments": {
-                                "mending": 1
-                            }
-                        }
-                    ],
-                    "weight": 8
-                },
-                {                    
-                    "type": "item",
                     "name": "purple_dye",
                     "functions": [
                         {
@@ -499,13 +448,14 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "STR+1,ATK+2"
+                                    "text": "STR+1,ATK+2",
+                                    "color": "light_purple"
                                 },
                                 {
                                     "text": "武器用"
                                 }
                             ],
-                            "weight": 7
+                        "weight": 8
                         },
                         {
                             "function": "set_enchantments",
@@ -531,7 +481,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "red"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -563,7 +514,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "#FFA500"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -595,7 +547,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "yellow"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -627,7 +580,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "#00FF2A"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -645,21 +599,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lime_dye",
+                    "name": "light_blue_dye",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,dex:3,HideFlags:127,app:all}"
                         },
                         {
                             "function": "set_name",
-                            "name": "緑の輝石"
+                            "name": "空色の宝玉"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "aqua"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -677,21 +632,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "light_blue_dye",
+                    "name": "lapis_lazuli",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:light_blue,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:blue,lvl:1,dex:3,HideFlags:127,app:all}"
                         },
                         {
                             "function": "set_name",
-                            "name": "空色の宝玉"
+                            "name": "青の鋭宝"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "blue"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -709,38 +665,6 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lapis_lazuli",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,dex:3,HideFlags:127,app:all}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "青の鋭宝"
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "DEX+3"
-                                },
-                                {
-                                    "text": "武器・防具用"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_enchantments",
-                            "enchantments": {
-                                "mending": 1
-                            }
-                        }
-                    ],
-                    "weight": 8
-                },
-                {                    
-                    "type": "item",
                     "name": "purple_dye",
                     "functions": [
                         {
@@ -755,7 +679,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+3"
+                                    "text": "DEX+3",
+                                    "color": "light_purple"
                                 },
                                 {
                                     "text": "武器・防具用"
@@ -769,7 +694,7 @@
                             }
                         }
                     ],
-                    "weight": 7
+                    "weight": 8
                 },
                 {
                     "type": "item",
@@ -787,7 +712,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "red"
                                 },
                                 {
                                     "text": "武器用"
@@ -819,7 +745,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "#FFA500"
                                 },
                                 {
                                     "text": "武器用"
@@ -851,7 +778,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "yellow"
                                 },
                                 {
                                     "text": "武器用"
@@ -883,7 +811,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "#00FF2A"
                                 },
                                 {
                                     "text": "武器用"
@@ -901,21 +830,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lime_dye",
+                    "name": "light_blue_dye",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
                         },
                         {
                             "function": "set_name",
-                            "name": "緑の輝石"
+                            "name": "空色の宝玉"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "aqua"
                                 },
                                 {
                                     "text": "武器用"
@@ -933,21 +863,22 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "light_blue_dye",
+                    "name": "lapis_lazuli",
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:light_blue,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:blue,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
                         },
                         {
                             "function": "set_name",
-                            "name": "空色の宝玉"
+                            "name": "青の鋭宝"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "blue"
                                 },
                                 {
                                     "text": "武器用"
@@ -965,38 +896,6 @@
                 },
                 {                    
                     "type": "item",
-                    "name": "lapis_lazuli",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "青の鋭宝"
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "DEX+1,ATK+2"
-                                },
-                                {
-                                    "text": "武器用"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_enchantments",
-                            "enchantments": {
-                                "mending": 1
-                            }
-                        }
-                    ],
-                    "weight": 8
-                },
-                {                    
-                    "type": "item",
                     "name": "purple_dye",
                     "functions": [
                         {
@@ -1011,13 +910,14 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "DEX+1,ATK+2"
+                                    "text": "DEX+1,ATK+2",
+                                    "color": "light_purple"
                                 },
                                 {
                                     "text": "武器用"
                                 }
                             ],
-                            "weight": 7
+                            "weight": 8
                         },
                         {
                             "function": "set_enchantments",

@@ -1,0 +1,15 @@
+execute store result score @s str run data get entity @s Item.tag.Stat.dstr
+execute store result score @s dex run data get entity @s Item.tag.Stat.ddex
+execute store result score @s atk run data get entity @s Item.tag.Stat.datk
+execute store result score @s hp run data get entity @s Item.tag.Stat.dhp
+execute store result score @s def run data get entity @s Item.tag.Stat.def
+execute store result score @s[scores={str=0}] str run data get entity @s Item.tag.Stat.bstr
+execute store result score @s[scores={dex=0}] dex run data get entity @s Item.tag.Stat.bdex
+execute store result score @s[scores={atk=0}] atk run data get entity @s Item.tag.Stat.batk
+execute store result score @s[scores={hp=0}] hp run data get entity @s Item.tag.Stat.bhp
+execute store result score @s[scores={def=0}] def run data get entity @s Item.tag.Stat.bdef
+execute store result score @s[scores={str=0}] str run data get entity @s Item.tag.Stat.ostr
+execute store result score @s[scores={dex=0}] dex run data get entity @s Item.tag.Stat.odex
+execute store result score @s[scores={atk=0}] atk run data get entity @s Item.tag.Stat.oatk
+execute store result score @s[scores={hp=0}] hp run data get entity @s Item.tag.Stat.ohp
+execute store result score @s[scores={def=0}] def run data get entity @s Item.tag.Stat.odef
