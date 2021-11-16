@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "ender":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{EnderItems:[{Slot:26b,id:\"minecraft:structure_void\",tag:{category:100}}]}"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "imp":{
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "ender",
+            "imp"
+        ]
+    ],
+    "rewards": {
+        "function": "rpg:skil/enderreset"
+    }
+}

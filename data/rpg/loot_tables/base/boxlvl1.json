@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:red,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:red,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -42,7 +42,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:orange,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:orange,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -75,7 +75,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:yellow,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:yellow,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -108,7 +108,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:lime,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -141,7 +141,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:aqua,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -174,7 +174,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:blue,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -207,7 +207,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:purple,lvl:1,str:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:purple,lvl:1,str:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -240,7 +240,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:red,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:red,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -273,7 +273,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:orange,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:orange,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -306,7 +306,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:yellow,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:yellow,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -339,7 +339,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:lime,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -372,7 +372,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:aqua,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -405,7 +405,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:blue,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -438,7 +438,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:purple,lvl:1,str:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:purple,lvl:1,str:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -471,7 +471,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:red,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:red,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -504,7 +504,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:orange,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:orange,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -537,7 +537,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:yellow,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:yellow,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -570,7 +570,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:lime,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -603,7 +603,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:aqua,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -636,7 +636,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:blue,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -669,7 +669,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:purple,lvl:1,dex:3,HideFlags:127,app:all}"
+                            "tag": "{category:enchant,item:purple,lvl:1,dex:3,HideFlags:127,app:[\"all\"]}"
                         },
                         {
                             "function": "set_name",
@@ -702,7 +702,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:red,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:red,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -735,7 +735,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:orange,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:orange,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -768,7 +768,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:yellow,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:yellow,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -801,7 +801,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:lime,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:lime,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -834,7 +834,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:aqua,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:aqua,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -867,7 +867,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:blue,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:blue,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",
@@ -900,7 +900,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{category:enchant,item:purple,lvl:1,dex:1,HideFlags:127,atk:2,app:main}"
+                            "tag": "{category:enchant,item:purple,lvl:1,dex:1,HideFlags:127,atk:2,app:[\"main\"]}"
                         },
                         {
                             "function": "set_name",

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "skill":{
+            "trigger": "impossible"
+        }
+    },
+    "rewards": {
+        "function": "rpg:skil/noob/doubleattack/get"
+    }
+}

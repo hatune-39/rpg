@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "1":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{EnderItems:[{Slot:0b,tag:{skill:1}}]}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"doubleattack\"]}"
+                        }
+                    }
+                ]
+            }
+        },
+        "imp":{
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "imp"
+        ]
+    ], 
+    "rewards": {
+        "function": "rpg:skil/page1/page1"
+    }
+}

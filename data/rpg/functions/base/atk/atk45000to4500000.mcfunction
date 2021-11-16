@@ -1,8 +1,8 @@
-scoreboard players operation #div100 atk = @s atk
+scoreboard players operation #div100 atk = #platk atk
 
 
 
-scoreboard players operation #mod100 atk = @s atk
+scoreboard players operation #mod100 atk = #platk atk
 scoreboard players operation enedefop def /= #100 ID
 
 scoreboard players operation #div100 atk /= #100 ID

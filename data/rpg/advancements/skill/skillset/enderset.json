@@ -1,0 +1,102 @@
+{
+    "criteria": {
+        "ender1":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{EnderItems:[{Slot:10b,tag:{category:1}}]}"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ender2":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{EnderItems:[{Slot:12b,tag:{category:1}}]}"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ender3":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{EnderItems:[{Slot:14b,tag:{category:1}}]}"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ender4":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{EnderItems:[{Slot:16b,tag:{category:1}}]}"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "imp":{
+            "trigger": "impossible"
+        },
+        "preset":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "rpg:base/preset":true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ender1",
+            "ender2",
+            "ender3",
+            "ender4",
+            "imp"
+        ],
+        [
+            "preset"
+        ]
+    ],
+    "rewards": {
+        "function": "rpg:skil/enderset"
+    }
+}

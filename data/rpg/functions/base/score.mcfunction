@@ -67,6 +67,16 @@ scoreboard objectives add nextexp dummy
 scoreboard objectives add expexp dummy
 scoreboard objectives add summon dummy
 
+scoreboard objectives add skill1 dummy
+scoreboard objectives add skill2 dummy
+scoreboard objectives add skill3 dummy
+scoreboard objectives add skill4 dummy
+scoreboard objectives add skill1count dummy
+scoreboard objectives add skill2count dummy
+scoreboard objectives add skill3count dummy
+scoreboard objectives add skill4count dummy
+
+
 scoreboard objectives add ID dummy
 
 scoreboard players set #10 ID 10
