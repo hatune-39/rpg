@@ -8,8 +8,17 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "skill1count":{
+                            "skill1":{
                                 "min": 1
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": false
                             }
                         }
                     }
@@ -24,8 +33,17 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "skill2count":{
+                            "skill1":{
                                 "min": 1
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": true
                             }
                         }
                     }
@@ -40,8 +58,17 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "skill3count":{
+                            "skill2":{
                                 "min": 1
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": false
                             }
                         }
                     }
@@ -56,8 +83,17 @@
                         "condition": "entity_scores",
                         "entity": "this",
                         "scores": {
-                            "skill4count":{
+                            "skill2":{
                                 "min": 1
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "flags": {
+                                "is_sneaking": true
                             }
                         }
                     }

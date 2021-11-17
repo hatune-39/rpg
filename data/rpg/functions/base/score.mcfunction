@@ -1,5 +1,7 @@
 scoreboard objectives add stage dummy
 
+scoreboard objectives add energy dummy
+
 scoreboard objectives add atkbase dummy
 scoreboard objectives add dexbase dummy
 scoreboard objectives add strbase dummy
@@ -67,10 +69,12 @@ scoreboard objectives add nextexp dummy
 scoreboard objectives add expexp dummy
 scoreboard objectives add summon dummy
 
-scoreboard objectives add skill1 dummy
-scoreboard objectives add skill2 dummy
-scoreboard objectives add skill3 dummy
-scoreboard objectives add skill4 dummy
+scoreboard objectives add skill1 minecraft.used:fishing_rod
+scoreboard objectives add skill2 minecraft.used:carrot_on_a_stick
+scoreboard objectives add skill1set dummy
+scoreboard objectives add skill2set dummy
+scoreboard objectives add skill3set dummy
+scoreboard objectives add skill4set dummy
 scoreboard objectives add skill1count dummy
 scoreboard objectives add skill2count dummy
 scoreboard objectives add skill3count dummy
@@ -78,6 +82,7 @@ scoreboard objectives add skill4count dummy
 
 
 scoreboard objectives add ID dummy
+scoreboard objectives add plID dummy
 
 scoreboard players set #10 ID 10
 scoreboard players set #2 ID 2
@@ -88,6 +93,7 @@ scoreboard players set #11 ID 11
 scoreboard players set #12 ID 12
 scoreboard players set #20 ID 20
 scoreboard players set #30 ID 30
+scoreboard players set #35 ID 35
 scoreboard players set #100 ID 100
 scoreboard players set #104 ID 104
 scoreboard players set #105 ID 105

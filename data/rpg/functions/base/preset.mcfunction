@@ -10,5 +10,7 @@ scoreboard players set @s dexbase 10
 scoreboard players set @s maxhp 20
 scoreboard players set @s nextexp 15
 scoreboard players set @s expexp 5
+scoreboard players add #global plID 1
+scoreboard players operation @s plID = #global plID
 tellraw @s "ようこそ！まずは向かって右側にいる教官に話しかけてみよう！"
 gamemode adventure @s
