@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "go":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:dungeon",
+                        "position": {
+                            "x": {
+                                "min": -3901,
+                                "max": -3897
+                            },
+                            "y": {
+                                "min": 45,
+                                "max": 45.5
+                            },
+                            "z": {
+                                "min": 3231,
+                                "max": 3235
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/1stdangeon/goboss"
+    }
+}
