@@ -57,6 +57,3 @@ scoreboard players operation @s str += @s lstr
 scoreboard players operation @s atk += @s batk
 scoreboard players operation @s dex += @s bdex
 scoreboard players operation @s str += @s bstr
-
-
-#aaa
