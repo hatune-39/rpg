@@ -59,3 +59,4 @@ scoreboard players operation @s dex += @s bdex
 scoreboard players operation @s str += @s bstr
 
 
+#aaa
