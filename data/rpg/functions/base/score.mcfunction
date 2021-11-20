@@ -80,6 +80,7 @@ scoreboard objectives add skill2count dummy
 scoreboard objectives add skill3count dummy
 scoreboard objectives add skill4count dummy
 
+scoreboard objectives add rotation dummy
 
 scoreboard objectives add ID dummy
 scoreboard objectives add plID dummy
@@ -100,3 +101,4 @@ scoreboard players set #105 ID 105
 scoreboard players set #106 ID 106
 scoreboard players set #107 ID 107
 team add enemy
+schedule function rpg:base/rotationcheck 1s

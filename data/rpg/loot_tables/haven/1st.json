@@ -96,6 +96,10 @@
                         {
                             "function": "set_name",
                             "name": "電離結晶"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:energy}"
                         }
                     ],
                     "conditions": [

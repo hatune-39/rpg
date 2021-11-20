@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "stat":{
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "rotation":{
+                                "min": 60
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:base/lvl/getstat"
+    }
+}

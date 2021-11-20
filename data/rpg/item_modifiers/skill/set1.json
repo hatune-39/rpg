@@ -1,0 +1,17 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{skill:\"ダブルアタック\"}",
+        "conditions": [
+            {
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": {
+                    "skill1set": 1
+                }
+            }
+        ]
+    }
+    
+    
+]

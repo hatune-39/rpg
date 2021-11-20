@@ -28,6 +28,7 @@ item replace entity @s enderchest.10 with fishing_rod{display:{Name:'{"text": "�
 item replace entity @s enderchest.12 with fishing_rod{display:{Name:'{"text": "杖1-2(スニーク) (クリックで選択)"}'},HideFlags:127,category:1}
 item replace entity @s enderchest.14 with carrot_on_a_stick{display:{Name:'{"text": "スティック2-1(スニークなし) (クリックで選択)"}'},HideFlags:127,category:1}
 item replace entity @s enderchest.16 with carrot_on_a_stick{display:{Name:'{"text": "スティック2-2(スニーク) (クリックで選択)"}'},HideFlags:127,category:1}
+#item modify entity @s enderchest.10 rpg:skill/set1
 advancement revoke @s only rpg:skill/skillset/enderset
 clear @s #rpg:skill{category:100}
 tag @s remove skillset1
