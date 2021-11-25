@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "clear":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "bedrock"
+                        ],
+                        "nbt": "{category:bossdrop,boss:firstboss}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/1stdangeon/boss/bossclear"
+    }
+}

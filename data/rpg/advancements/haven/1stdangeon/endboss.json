@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "end":{
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "rpg:dungeon",
+                        "position": {
+                            "z": {
+                                "min": 3222,
+                                "max": 3225
+                            },
+                            "y": {
+                                "min": 17,
+                                "max": 21
+                            },
+                            "x": {
+                                "max": -3933,
+                                "min": -3934
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:haven/1stdangeon/boss/endboss"
+    }
+}

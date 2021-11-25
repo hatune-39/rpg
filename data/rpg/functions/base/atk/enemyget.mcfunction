@@ -19,3 +19,5 @@ scoreboard players operation enedef def += @s odef
 scoreboard players operation enedef def += @s mdef
 
 execute unless score @s hp = @s hp store result score @s hp run data get entity @s ArmorItems[3].tag.Stat.hp
+
+#tellraw @a [{"nbt":"ArmorItems[3].enemy.name","entity": "@s"}]

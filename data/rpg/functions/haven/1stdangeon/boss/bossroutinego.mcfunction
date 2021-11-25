@@ -1,2 +1,3 @@
-execute as @e[nbt={ArmorItems:[{},{},{},{tag:{enemy:{stage:haven,group:3b,name:1stboss}}}]}] run function rpg:haven/1stdangeon/boss/bossroutine
+execute as @e[nbt={ArmorItems:[{},{},{},{tag:{enemy:{stage:haven,group:3b,name:1stboss}}}]}] at @s run function rpg:haven/1stdangeon/boss/bossroutine
 execute if entity @e[nbt={ArmorItems:[{},{},{},{tag:{enemy:{stage:haven,group:3b,name:1stboss}}}]}] run schedule function rpg:haven/1stdangeon/boss/bossroutinego 1t
+execute unless entity @a[tag=firstdangeonboss] run function rpg:haven/1stdangeon/boss/bossretair

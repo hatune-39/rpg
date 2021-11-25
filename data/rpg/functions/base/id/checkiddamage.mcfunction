@@ -24,5 +24,6 @@ execute as @e[tag=enemy] if score @s ID = checkID ID run tag @s add damage
 execute as @e[tag=damage] at @s run function rpg:base/damage/enemyget
 function rpg:base/damage/playerget
 function rpg:base/damage/damage
+tag @e[tag=damage] remove damage
 
 advancement revoke @s only rpg:base/damage

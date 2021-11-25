@@ -1,0 +1,39 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "copper_block",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name":"銅貨(大)"
+                        },
+                        {
+                            "function": "limit_count",
+                            "limit": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bedrock",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{category:bossdrop,boss:firstboss}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

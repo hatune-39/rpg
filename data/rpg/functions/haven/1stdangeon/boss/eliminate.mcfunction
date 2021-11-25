@@ -1,0 +1,1 @@
+advancement grant @a[tag=firstdangeonboss] only rpg:haven/1stdangeon/endboss

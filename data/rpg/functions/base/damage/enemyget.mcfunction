@@ -19,3 +19,4 @@ scoreboard players operation eneatk atk += @s oatk
 scoreboard players operation eneatk atk += @s matk
 
 execute unless score @s hp = @s hp store result score @s hp run data get entity @s ArmorItems[3].tag.Stat.hp
+#tellraw @a [{"nbt":"ArmorItems[3].tag.enemy.name","entity": "@s"}]
